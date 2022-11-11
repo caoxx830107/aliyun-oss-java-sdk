@@ -43,10 +43,10 @@ public class AuthorizedAccessSample {
 
     private static void createSTSAuthorization(OSS ossClient) {
         // Set yourEndpoint to the endpoint of the region in which the bucket is located. For example, if the bucket is located in the China (Hangzhou) region, set yourEndpoint to https://oss-cn-hangzhou.aliyuncs.com.
-        String endpoint = "yourEndpoint";
+        String endpoint = "https://oss-cn-shanghai.aliyuncs.com";
         // Specify the temporary AccessKey pair obtained from STS.
-        String accessKeyId = "yourAccessKeyId";
-        String accessKeySecret = "yourAccessKeySecret";
+        String accessKeyId = "LTAI5t8VzPN6KWP5ZawXZorR";
+        String accessKeySecret = "EJKS73JXq32WeNIc8Sw9mdUUhl34Nj";
         // Specify the security token obtained from STS.
         String securityToken = "yourSecurityToken";
         // Specify the name of the bucket in which the object you want to access is stored. Example: examplebucket.
